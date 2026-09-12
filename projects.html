@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Nwankwo Chidozie Johnpaul</title>
+<meta name="description" content="AI/ML and engineering projects by Nwankwo Chidozie Johnpaul, including a flood prediction model, a student opportunity assistant, and two ML-powered Streamlit apps.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="nav__mark"><strong>N.</strong><span>Chidozie Johnpaul</span></a>
+    <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span></button>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html" aria-current="page">Projects</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="community.html">Community</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <div class="page-head">
+    <div class="container">
+      <p class="eyebrow">Projects</p>
+      <h1>Practical work, at various stages of finished</h1>
+      <p class="text-soft" style="margin-top: 0.8em;">Some of these are live and in active use, one is a model I built for a larger team to integrate, and a couple are still under construction. I've labeled each honestly rather than dressing them all up as finished products.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid--2">
+
+        <article class="project project--featured">
+          <p class="project__status">● Live — actively evolving</p>
+          <h3 class="project__title">Student Opportunity Assistant</h3>
+          <p class="project__role">An AI-assisted way to discover and understand student opportunities</p>
+          <p class="text-soft">Students lose out on scholarships, internships and competitions not because they don't exist, but because they're scattered and hard to evaluate. This tool uses AI to interpret a student's search, analyze available opportunities and recommend the ones that actually fit — instead of returning an unfiltered list.</p>
+          <div class="project__stack">
+            <span class="tag">Python</span><span class="tag">AI/LLM</span><span class="tag">Streamlit</span><span class="tag">Recommendation</span>
+          </div>
+          <div class="project__links">
+            <a href="https://github.com/Jaypee88/student-opportunity-assistant" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://student-opportunity-assistant-ey23yjpx48rzqgpqrbyyuj.streamlit.app/" target="_blank" rel="noopener">Streamlit Demo</a>
+          </div>
+        </article>
+
+        <article class="project project--featured" id="flood-esc">
+          <p class="project__status">● Team project — model shipped for integration</p>
+          <h3 class="project__title">Flood ESC — Flood Prediction Model</h3>
+          <p class="project__role">The ML component of a wider flood prediction &amp; emergency-response system</p>
+          <p class="text-soft">Built as part of a multidisciplinary team for the IEEE Request &amp; Response Challenge. I owned the machine learning side: sourcing and preparing dynamic and static environmental data — including elevation and satellite data through Google Earth Engine — then training and evaluating the model in Google Colab on GPU. Once it was ready, I handed it off to the software engineering team, who integrated it into the full application. The project cleared the first round of the challenge.</p>
+          <div class="project__stack">
+            <span class="tag">Python</span><span class="tag">Google Earth Engine</span><span class="tag">Google Colab</span><span class="tag">Geospatial data</span><span class="tag">GPU training</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <p class="project__status">● Live</p>
+          <h3 class="project__title">House Price Predictor &amp; Recommender</h3>
+          <p class="project__role">Predicting prices, and recommending comparable homes</p>
+          <p class="text-soft">A machine learning web app that predicts housing prices from property features, then recommends similar listings based on those predictions and the buyer's preferences — built to explore ML in a genuinely practical, everyday use case.</p>
+          <div class="project__stack">
+            <span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">XGBoost</span><span class="tag">SHAP</span><span class="tag">Streamlit</span>
+          </div>
+          <div class="project__links">
+            <a href="https://github.com/Jaypee88/House-price-predictor-recommender-" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://washingtonhousemodel.streamlit.app/" target="_blank" rel="noopener">Streamlit Demo</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <p class="project__status">● Live</p>
+          <h3 class="project__title">Smart Tech Career Recommender</h3>
+          <p class="project__role">Helping people find a tech career path that actually fits them</p>
+          <p class="text-soft">A recommendation app that suggests technology career paths based on a user's interests and characteristics, using TF-IDF vectorization and cosine similarity to match people to roles rather than relying on a generic quiz.</p>
+          <div class="project__stack">
+            <span class="tag">Python</span><span class="tag">TF-IDF</span><span class="tag">Cosine Similarity</span><span class="tag">Streamlit</span>
+          </div>
+          <div class="project__links">
+            <a href="https://github.com/Jaypee88/Smart-Tech-career-recommender" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://smart-tech-career-recommender-nbrwnq2usx6a5ojhetvmoo.streamlit.app/" target="_blank" rel="noopener">Streamlit Demo</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <p class="project__status">● In development</p>
+          <h3 class="project__title">ECE Alumni Connect</h3>
+          <p class="project__role">A platform to connect students and alumni in my department</p>
+          <p class="text-soft">A concept currently under active development, built to give students and alumni of my department a shared space to stay connected — mentorship, opportunities, and keeping the community intact past graduation.</p>
+          <div class="project__stack">
+            <span class="tag">Python</span><span class="tag">In progress</span>
+          </div>
+          <div class="project__links">
+            <a href="https://github.com/Jaypee88/ECE_Alumni_Connect" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <p class="project__status">● Prototype</p>
+          <h3 class="project__title">AI-Based Scam &amp; Content Detection System</h3>
+          <p class="project__role">A BERT-based classifier for fraudulent or inappropriate text</p>
+          <p class="text-soft">An NLP classification system built to flag potentially fraudulent or inappropriate text, with particular attention to slang, altered spellings and other tricks people use to slip past automated filters.</p>
+          <div class="project__stack">
+            <span class="tag">Python</span><span class="tag">BERT</span><span class="tag">NLP</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container" style="text-align: left;">
+      <h2>Want to see how I work, not just what I've shipped?</h2>
+      <p class="text-soft">My GitHub has the code, commit history and the occasional messy first draft.</p>
+      <a href="https://github.com/Jaypee88" class="btn btn--primary" target="_blank" rel="noopener">Visit my GitHub</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer__inner">
+    <p class="footer__note">Nwankwo Chidozie Johnpaul — Computer Engineering, NAU · Class of 2028</p>
+    <ul class="footer__links">
+      <li><a href="https://github.com/Jaypee88" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/chidozie-nwankwo-b798b4382" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="mailto:dozienwankwo7@gmail.com">Email</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
